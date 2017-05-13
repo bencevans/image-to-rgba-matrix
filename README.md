@@ -12,10 +12,10 @@
 
 ```js
 // ES5
-const imageToRgbaMatrix = require('@bencevans/image-to-rgba-matrix');
+const imageToRgbaMatrix = require('image-to-rgba-matrix');
 
 // ES6
-import imageToRgbaMatrix from '@bencevans/image-to-rgba-matrix';
+import imageToRgbaMatrix from 'image-to-rgba-matrix';
 
 // From file path
 imageToRgbaMatrix('./path-to-image').then(console.log);
