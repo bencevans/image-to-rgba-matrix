@@ -1,0 +1,33 @@
+{
+  "name": "image-to-rgba-matrix",
+  "version": "0.0.0",
+  "description": "Turn an image to a matrix of red, green, blue and alpha values",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/image-to-rgba-matrix.git"
+  },
+  "keywords": [
+    "image",
+    "rgb",
+    "red",
+    "green",
+    "blue",
+    "alpha"
+  ],
+  "author": "Ben Evans <ben@bluechimp.io> (https://bencevans.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencevans/image-to-rgba-matrix/issues"
+  },
+  "homepage": "https://github.com/bencevans/image-to-rgba-matrix#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "jimp": "^0.2.27"
+  }
+}
