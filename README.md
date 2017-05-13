@@ -2,11 +2,13 @@
 
 > Convert an image into a RGBA matrix.
 
-## install
+## Install
 
-    $ yarn add @bencevans/image-to-rgba-matrix
+    $ yarn add image-to-rgba-matrix
 
-## usage
+    $ npm install --save image-to-rgba-matrix
+
+## Usage
 
 ```js
 // ES5
@@ -25,6 +27,6 @@ imageToRgbaMatrix(imageBuf).then(console.log);
 imageToRgbaMatrix('http://bencevans.io/avatar.jpg').then(console.log);
 ```
 
-## licence
+## Licence
 
 MIT &copy; [Ben Evans](https://bencevans.io)
